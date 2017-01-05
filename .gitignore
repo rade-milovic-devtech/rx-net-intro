@@ -1,0 +1,14 @@
+#Build result folders
+bin/
+obj/
+
+# NuGet related files and folders
+packages/
+project.lock.json
+
+# Rider related files and folders
+.idea/
+
+# Visual Studio related files and folders
+.vs/
+*.user
