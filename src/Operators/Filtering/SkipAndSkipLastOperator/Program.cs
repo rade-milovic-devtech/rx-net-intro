@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Reactive.Linq;
 
-namespace SkipOperator
+namespace SkipAndSkipLastOperator
 {
     public class Program
     {
