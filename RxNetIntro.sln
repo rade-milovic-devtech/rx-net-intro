@@ -10,6 +10,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Operators", "Operators", "{3F25D901-EB87-4093-9FF4-122288647594}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Filtering", "Filtering", "{85325B3C-5A52-4940-9796-82BC6124DD39}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ElementAt", "src\Operators\Filtering\ElementAtOperator\ElementAtOperator.xproj", "{6448EF81-4AD6-4956-973C-48AF251C2C5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +26,17 @@ Global
 		{215D3321-7C2A-43A5-A888-F66C87054077}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{215D3321-7C2A-43A5-A888-F66C87054077}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{215D3321-7C2A-43A5-A888-F66C87054077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6448EF81-4AD6-4956-973C-48AF251C2C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6448EF81-4AD6-4956-973C-48AF251C2C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6448EF81-4AD6-4956-973C-48AF251C2C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6448EF81-4AD6-4956-973C-48AF251C2C5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{85325B3C-5A52-4940-9796-82BC6124DD39} = {3F25D901-EB87-4093-9FF4-122288647594}
+		{215D3321-7C2A-43A5-A888-F66C87054077} = {85325B3C-5A52-4940-9796-82BC6124DD39}
+		{6448EF81-4AD6-4956-973C-48AF251C2C5C} = {85325B3C-5A52-4940-9796-82BC6124DD39}
 	EndGlobalSection
 EndGlobal
