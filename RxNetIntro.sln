@@ -74,6 +74,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SelectOperator", "src\Opera
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SelectManyOperator", "src\Operators\Transforming\SelectManyOperator\SelectManyOperator.xproj", "{0A118426-3013-4B07-9007-3FECFF34547D}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GroupByOperator", "src\Operators\Transforming\GroupByOperator\GroupByOperator.xproj", "{85B6348B-7311-4BAA-9005-2CA8E609EBF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -192,6 +194,10 @@ Global
 		{0A118426-3013-4B07-9007-3FECFF34547D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A118426-3013-4B07-9007-3FECFF34547D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A118426-3013-4B07-9007-3FECFF34547D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85B6348B-7311-4BAA-9005-2CA8E609EBF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85B6348B-7311-4BAA-9005-2CA8E609EBF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85B6348B-7311-4BAA-9005-2CA8E609EBF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85B6348B-7311-4BAA-9005-2CA8E609EBF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -229,5 +235,6 @@ Global
 		{05D746F2-9809-401E-B667-E2C8AD2287FB} = {3F25D901-EB87-4093-9FF4-122288647594}
 		{FA7807C2-F8B1-4532-8767-066AD2F2917B} = {05D746F2-9809-401E-B667-E2C8AD2287FB}
 		{0A118426-3013-4B07-9007-3FECFF34547D} = {05D746F2-9809-401E-B667-E2C8AD2287FB}
+		{85B6348B-7311-4BAA-9005-2CA8E609EBF2} = {05D746F2-9809-401E-B667-E2C8AD2287FB}
 	EndGlobalSection
 EndGlobal
