@@ -72,6 +72,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transforming", "Transformin
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SelectOperator", "src\Operators\Transforming\SelectOperator\SelectOperator.xproj", "{FA7807C2-F8B1-4532-8767-066AD2F2917B}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SelectManyOperator", "src\Operators\Transforming\SelectManyOperator\SelectManyOperator.xproj", "{0A118426-3013-4B07-9007-3FECFF34547D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -186,6 +188,10 @@ Global
 		{FA7807C2-F8B1-4532-8767-066AD2F2917B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA7807C2-F8B1-4532-8767-066AD2F2917B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA7807C2-F8B1-4532-8767-066AD2F2917B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A118426-3013-4B07-9007-3FECFF34547D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A118426-3013-4B07-9007-3FECFF34547D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A118426-3013-4B07-9007-3FECFF34547D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A118426-3013-4B07-9007-3FECFF34547D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -222,5 +228,6 @@ Global
 		{97C06A2F-C91D-42FC-AAE2-767C7285BA41} = {619FD705-1FA4-44FB-8D89-A5BB358FCBB0}
 		{05D746F2-9809-401E-B667-E2C8AD2287FB} = {3F25D901-EB87-4093-9FF4-122288647594}
 		{FA7807C2-F8B1-4532-8767-066AD2F2917B} = {05D746F2-9809-401E-B667-E2C8AD2287FB}
+		{0A118426-3013-4B07-9007-3FECFF34547D} = {05D746F2-9809-401E-B667-E2C8AD2287FB}
 	EndGlobalSection
 EndGlobal
