@@ -32,6 +32,10 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SampleOperator", "src\Opera
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ThrottleOperator", "src\Operators\Filtering\ThrottleOperator\ThrottleOperator.xproj", "{AB3C09C5-4DBA-4DE2-ADA2-5EA74A02EA0C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Conditional and Boolean", "Conditional and Boolean", "{309E340A-C554-4F09-861D-C336D2BAA3B8}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AllOperator", "src\Operators\Conditional and Boolean\AllOperator\AllOperator.xproj", "{01BEB10C-3676-4EC7-BF9A-3DDB693216BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,6 +82,10 @@ Global
 		{AB3C09C5-4DBA-4DE2-ADA2-5EA74A02EA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB3C09C5-4DBA-4DE2-ADA2-5EA74A02EA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB3C09C5-4DBA-4DE2-ADA2-5EA74A02EA0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01BEB10C-3676-4EC7-BF9A-3DDB693216BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01BEB10C-3676-4EC7-BF9A-3DDB693216BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01BEB10C-3676-4EC7-BF9A-3DDB693216BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01BEB10C-3676-4EC7-BF9A-3DDB693216BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -94,5 +102,7 @@ Global
 		{65F63881-8113-4838-B02D-45030613A2CA} = {85325B3C-5A52-4940-9796-82BC6124DD39}
 		{480CE768-EF84-478C-AFE7-330D1C7CAFF3} = {85325B3C-5A52-4940-9796-82BC6124DD39}
 		{AB3C09C5-4DBA-4DE2-ADA2-5EA74A02EA0C} = {85325B3C-5A52-4940-9796-82BC6124DD39}
+		{309E340A-C554-4F09-861D-C336D2BAA3B8} = {3F25D901-EB87-4093-9FF4-122288647594}
+		{01BEB10C-3676-4EC7-BF9A-3DDB693216BA} = {309E340A-C554-4F09-861D-C336D2BAA3B8}
 	EndGlobalSection
 EndGlobal
