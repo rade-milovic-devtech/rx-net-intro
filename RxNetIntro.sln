@@ -90,6 +90,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AndThenWhenOperators", "src
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "JoinOperator", "src\Operators\Combining\JoinOperator\JoinOperator.xproj", "{DDC75D37-4EC3-469B-A582-0195D9132ACC}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MergeOperator", "src\Operators\Combining\MergeOperator\MergeOperator.xproj", "{5D95F4A1-F051-4E42-8BB1-FDC7CAAAF8BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -236,6 +238,10 @@ Global
 		{DDC75D37-4EC3-469B-A582-0195D9132ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDC75D37-4EC3-469B-A582-0195D9132ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDC75D37-4EC3-469B-A582-0195D9132ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D95F4A1-F051-4E42-8BB1-FDC7CAAAF8BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D95F4A1-F051-4E42-8BB1-FDC7CAAAF8BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D95F4A1-F051-4E42-8BB1-FDC7CAAAF8BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D95F4A1-F051-4E42-8BB1-FDC7CAAAF8BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -281,5 +287,6 @@ Global
 		{8C11EF1B-EE2C-4125-864D-670EA75E951F} = {F7F86B67-52A1-4037-98FC-4640106EEFDF}
 		{49FCCFFC-0DA2-4FEC-8726-FB6050DE775A} = {F7F86B67-52A1-4037-98FC-4640106EEFDF}
 		{DDC75D37-4EC3-469B-A582-0195D9132ACC} = {F7F86B67-52A1-4037-98FC-4640106EEFDF}
+		{5D95F4A1-F051-4E42-8BB1-FDC7CAAAF8BD} = {F7F86B67-52A1-4037-98FC-4640106EEFDF}
 	EndGlobalSection
 EndGlobal
