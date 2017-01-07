@@ -80,6 +80,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ScanOperator", "src\Operato
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BufferOperator", "src\Operators\Transforming\BufferOperator\BufferOperator.xproj", "{5A68163C-E135-4CE5-8C6D-DF1372116F43}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WindowOperator", "src\Operators\Transforming\WindowOperator\WindowOperator.xproj", "{33CF23B2-4C12-49D2-8963-88C5797689CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -210,6 +212,10 @@ Global
 		{5A68163C-E135-4CE5-8C6D-DF1372116F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A68163C-E135-4CE5-8C6D-DF1372116F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A68163C-E135-4CE5-8C6D-DF1372116F43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33CF23B2-4C12-49D2-8963-88C5797689CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33CF23B2-4C12-49D2-8963-88C5797689CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33CF23B2-4C12-49D2-8963-88C5797689CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33CF23B2-4C12-49D2-8963-88C5797689CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -250,5 +256,6 @@ Global
 		{85B6348B-7311-4BAA-9005-2CA8E609EBF2} = {05D746F2-9809-401E-B667-E2C8AD2287FB}
 		{1D48F167-5600-47E0-B5AB-9BCF7C743F1F} = {05D746F2-9809-401E-B667-E2C8AD2287FB}
 		{5A68163C-E135-4CE5-8C6D-DF1372116F43} = {05D746F2-9809-401E-B667-E2C8AD2287FB}
+		{33CF23B2-4C12-49D2-8963-88C5797689CF} = {05D746F2-9809-401E-B667-E2C8AD2287FB}
 	EndGlobalSection
 EndGlobal
