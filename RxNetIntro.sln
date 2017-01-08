@@ -132,6 +132,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ReturnOperator", "src\Opera
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RepeatOperator", "src\Operators\Creating\RepeatOperator\RepeatOperator.xproj", "{76B389AB-5A05-4D9E-9A58-7DB3F4C0475C}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RangeOperator", "src\Operators\Creating\RangeOperator\RangeOperator.xproj", "{CFF38FC1-3D64-4EF5-9444-C9E6F0165C70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -350,6 +352,10 @@ Global
 		{76B389AB-5A05-4D9E-9A58-7DB3F4C0475C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76B389AB-5A05-4D9E-9A58-7DB3F4C0475C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76B389AB-5A05-4D9E-9A58-7DB3F4C0475C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFF38FC1-3D64-4EF5-9444-C9E6F0165C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF38FC1-3D64-4EF5-9444-C9E6F0165C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF38FC1-3D64-4EF5-9444-C9E6F0165C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF38FC1-3D64-4EF5-9444-C9E6F0165C70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -416,5 +422,6 @@ Global
 		{124A2B43-4D0F-4F77-B1C4-D0FC9D843FF4} = {C91B8B14-3B9F-4C80-B62C-FE21D8E80036}
 		{7F72EE3A-BDC1-420A-AB14-7A44B2872B3B} = {C91B8B14-3B9F-4C80-B62C-FE21D8E80036}
 		{76B389AB-5A05-4D9E-9A58-7DB3F4C0475C} = {C91B8B14-3B9F-4C80-B62C-FE21D8E80036}
+		{CFF38FC1-3D64-4EF5-9444-C9E6F0165C70} = {C91B8B14-3B9F-4C80-B62C-FE21D8E80036}
 	EndGlobalSection
 EndGlobal
