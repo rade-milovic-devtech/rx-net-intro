@@ -156,6 +156,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Converting", "Converting", 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ForEachOperator", "src\Operators\Converting\ForEachOperator\ForEachOperator.xproj", "{A5CC078E-0AE4-4A3A-BCFA-6AF9FB8BFE3A}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ToOperators", "src\Operators\Converting\ToOperators\ToOperators.xproj", "{4C3D78AD-C861-4249-9194-CC0B4609F327}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -414,6 +416,10 @@ Global
 		{A5CC078E-0AE4-4A3A-BCFA-6AF9FB8BFE3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5CC078E-0AE4-4A3A-BCFA-6AF9FB8BFE3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5CC078E-0AE4-4A3A-BCFA-6AF9FB8BFE3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C3D78AD-C861-4249-9194-CC0B4609F327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3D78AD-C861-4249-9194-CC0B4609F327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3D78AD-C861-4249-9194-CC0B4609F327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3D78AD-C861-4249-9194-CC0B4609F327}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -492,5 +498,6 @@ Global
 		{FAE14DD2-608F-4D86-8CC3-BBDDEBCDB712} = {0EF77BCC-76C2-481B-B031-E7E13F9F2CE8}
 		{EE9B866B-A022-4F7B-A102-A339079F6E49} = {3F25D901-EB87-4093-9FF4-122288647594}
 		{A5CC078E-0AE4-4A3A-BCFA-6AF9FB8BFE3A} = {EE9B866B-A022-4F7B-A102-A339079F6E49}
+		{4C3D78AD-C861-4249-9194-CC0B4609F327} = {EE9B866B-A022-4F7B-A102-A339079F6E49}
 	EndGlobalSection
 EndGlobal
