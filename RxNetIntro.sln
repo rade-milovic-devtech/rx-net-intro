@@ -144,6 +144,10 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DeferOperator", "src\Operat
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FromOperators", "src\Operators\Creating\FromOperators\FromOperators.xproj", "{3385C2B2-C14E-40CF-85CE-534457919892}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Connecting", "Connecting", "{0EF77BCC-76C2-481B-B031-E7E13F9F2CE8}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PublishAndConnectOperators", "src\Operators\Connecting\PublishAndConnectOperators\PublishAndConnectOperators.xproj", "{A193D2E2-2E6B-4E31-A571-0403961E09BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -386,6 +390,10 @@ Global
 		{3385C2B2-C14E-40CF-85CE-534457919892}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3385C2B2-C14E-40CF-85CE-534457919892}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3385C2B2-C14E-40CF-85CE-534457919892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A193D2E2-2E6B-4E31-A571-0403961E09BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A193D2E2-2E6B-4E31-A571-0403961E09BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A193D2E2-2E6B-4E31-A571-0403961E09BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A193D2E2-2E6B-4E31-A571-0403961E09BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -458,5 +466,7 @@ Global
 		{1CF27EE6-818B-41D4-94F2-EE76230EE576} = {C91B8B14-3B9F-4C80-B62C-FE21D8E80036}
 		{F2425F86-6652-47F0-A172-2A6A0E771A77} = {C91B8B14-3B9F-4C80-B62C-FE21D8E80036}
 		{3385C2B2-C14E-40CF-85CE-534457919892} = {C91B8B14-3B9F-4C80-B62C-FE21D8E80036}
+		{0EF77BCC-76C2-481B-B031-E7E13F9F2CE8} = {3F25D901-EB87-4093-9FF4-122288647594}
+		{A193D2E2-2E6B-4E31-A571-0403961E09BC} = {0EF77BCC-76C2-481B-B031-E7E13F9F2CE8}
 	EndGlobalSection
 EndGlobal
