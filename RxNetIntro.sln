@@ -110,6 +110,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DoOperator", "src\Operators
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DelayOperator", "src\Operators\Utility\DelayOperator\DelayOperator.xproj", "{51DCB4B6-735C-4A96-8326-081DBBB96C11}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MaterializeAndDematerializeOperators", "src\Operators\Utility\MaterializeAndDematerializeOperators\MaterializeAndDematerializeOperators.xproj", "{5CC530C7-A819-44E2-910F-D390A6798181}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -288,6 +290,10 @@ Global
 		{51DCB4B6-735C-4A96-8326-081DBBB96C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51DCB4B6-735C-4A96-8326-081DBBB96C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51DCB4B6-735C-4A96-8326-081DBBB96C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC530C7-A819-44E2-910F-D390A6798181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC530C7-A819-44E2-910F-D390A6798181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC530C7-A819-44E2-910F-D390A6798181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC530C7-A819-44E2-910F-D390A6798181}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -343,5 +349,6 @@ Global
 		{576779E9-2E32-4FD2-96C7-97E0D15C9EBA} = {3F25D901-EB87-4093-9FF4-122288647594}
 		{4A434C44-B3A1-43D4-AF12-D941A1546CF2} = {576779E9-2E32-4FD2-96C7-97E0D15C9EBA}
 		{51DCB4B6-735C-4A96-8326-081DBBB96C11} = {576779E9-2E32-4FD2-96C7-97E0D15C9EBA}
+		{5CC530C7-A819-44E2-910F-D390A6798181} = {576779E9-2E32-4FD2-96C7-97E0D15C9EBA}
 	EndGlobalSection
 EndGlobal
