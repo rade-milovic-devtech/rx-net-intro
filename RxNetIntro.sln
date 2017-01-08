@@ -128,6 +128,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NeverOperator", "src\Operat
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ThrowOperator", "src\Operators\Creating\ThrowOperator\ThrowOperator.xproj", "{124A2B43-4D0F-4F77-B1C4-D0FC9D843FF4}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ReturnOperator", "src\Operators\Creating\ReturnOperator\ReturnOperator.xproj", "{7F72EE3A-BDC1-420A-AB14-7A44B2872B3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -338,6 +340,10 @@ Global
 		{124A2B43-4D0F-4F77-B1C4-D0FC9D843FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{124A2B43-4D0F-4F77-B1C4-D0FC9D843FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{124A2B43-4D0F-4F77-B1C4-D0FC9D843FF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F72EE3A-BDC1-420A-AB14-7A44B2872B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F72EE3A-BDC1-420A-AB14-7A44B2872B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F72EE3A-BDC1-420A-AB14-7A44B2872B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F72EE3A-BDC1-420A-AB14-7A44B2872B3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -402,5 +408,6 @@ Global
 		{F45E23C6-613E-4343-AB94-1C75577FA40F} = {C91B8B14-3B9F-4C80-B62C-FE21D8E80036}
 		{D0CA1A18-1CA2-4C2A-B201-C2346C697207} = {C91B8B14-3B9F-4C80-B62C-FE21D8E80036}
 		{124A2B43-4D0F-4F77-B1C4-D0FC9D843FF4} = {C91B8B14-3B9F-4C80-B62C-FE21D8E80036}
+		{7F72EE3A-BDC1-420A-AB14-7A44B2872B3B} = {C91B8B14-3B9F-4C80-B62C-FE21D8E80036}
 	EndGlobalSection
 EndGlobal
