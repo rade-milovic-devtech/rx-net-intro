@@ -150,6 +150,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PublishAndConnectOperators"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RefCountOperator", "src\Operators\Connecting\RefCountOperator\RefCountOperator.xproj", "{9A48B4C1-0CA0-444A-A96A-684CAE3B6AF9}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ReplayOperator", "src\Operators\Connecting\ReplayOperator\ReplayOperator.xproj", "{FAE14DD2-608F-4D86-8CC3-BBDDEBCDB712}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -400,6 +402,10 @@ Global
 		{9A48B4C1-0CA0-444A-A96A-684CAE3B6AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A48B4C1-0CA0-444A-A96A-684CAE3B6AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A48B4C1-0CA0-444A-A96A-684CAE3B6AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAE14DD2-608F-4D86-8CC3-BBDDEBCDB712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAE14DD2-608F-4D86-8CC3-BBDDEBCDB712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAE14DD2-608F-4D86-8CC3-BBDDEBCDB712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAE14DD2-608F-4D86-8CC3-BBDDEBCDB712}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -475,5 +481,6 @@ Global
 		{0EF77BCC-76C2-481B-B031-E7E13F9F2CE8} = {3F25D901-EB87-4093-9FF4-122288647594}
 		{A193D2E2-2E6B-4E31-A571-0403961E09BC} = {0EF77BCC-76C2-481B-B031-E7E13F9F2CE8}
 		{9A48B4C1-0CA0-444A-A96A-684CAE3B6AF9} = {0EF77BCC-76C2-481B-B031-E7E13F9F2CE8}
+		{FAE14DD2-608F-4D86-8CC3-BBDDEBCDB712} = {0EF77BCC-76C2-481B-B031-E7E13F9F2CE8}
 	EndGlobalSection
 EndGlobal
